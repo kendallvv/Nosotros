@@ -1,0 +1,83 @@
+/* Reset básico */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.ibb.co/Gp3H375/Imagen-de-Whats-App-2024-07-02-a-las-19-06-14-f711e5a9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333333;
+}
+
+/* Contenedor principal */
+.faq-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+/* Estilo de los botones de pregunta */
+.faq-question {
+    width: 100%;
+    padding: 15px;
+    background-color: #8ed8f8;
+    color: #CCCCC;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    outline: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.faq-question:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo de las respuestas */
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background-color: #ffffff;
+    border-left: 4px solid #8ed8f8;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Mostrar la respuesta cuando se presiona el botón */
+.faq-answer.show {
+    display: block;
+}
+
+/* Estilo del texto de las respuestas */
+.faq-answer p {
+    margin: 2;
+    font-size: 14px;
+    font-family: "Times New Roman", Times, serif; /* Cambio de fuente */
+    line-height: 2; /* Espaciado entre líneas */
+}
+
+/* Estilo para hacer las respuestas como lista */
+.faq-answer ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.faq-answer ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
